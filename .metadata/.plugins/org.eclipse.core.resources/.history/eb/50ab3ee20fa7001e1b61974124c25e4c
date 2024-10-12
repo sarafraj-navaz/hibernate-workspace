@@ -1,0 +1,36 @@
+package all_type_constructor;
+
+public class NoParameterized_Constructor {
+
+	public static void main(String[] args) {
+		Student s1=new Student();
+		s1.name="raja";
+		s1.roll=123;
+		s1.password="abc";
+		
+		
+	}
+	
+	
+
+}
+class Student{
+	String name;
+	int roll;
+	String password;
+	
+	Student(){
+		System.out.println("Non Parameterized Constructor");
+	}
+	Student(String name){
+		this.name=name;
+	}
+	Student(int roll){
+		this.roll=roll;
+	}
+	//Copy Constructor
+	Student(Student s1){
+		this.name=s1.name;
+		this.roll=s1.roll;
+	}
+}

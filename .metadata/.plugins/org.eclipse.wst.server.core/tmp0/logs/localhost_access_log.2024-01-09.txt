@@ -1,0 +1,4 @@
+127.0.0.1 - - [09/Jan/2024:19:37:00 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [09/Jan/2024:19:37:02 +0530] "GET /servlet-calculater-project/addTwoNumber.jsp HTTP/1.1" 200 386
+127.0.0.1 - - [09/Jan/2024:19:37:02 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [09/Jan/2024:19:37:08 +0530] "GET /servlet-calculater-project/two?number1=1&number2=2 HTTP/1.1" 200 -

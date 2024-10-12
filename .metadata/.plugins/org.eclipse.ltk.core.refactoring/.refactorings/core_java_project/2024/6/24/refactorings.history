@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;file_Handing_Create_a_File_Program&apos; to &apos;core_java_program/src/file_handling&apos;&#x0D;&#x0A;- Original project: &apos;core_java_project&apos;&#x0D;&#x0A;- Destination element: &apos;core_java_program/src/file_handling&apos;&#x0D;&#x0A;- Original element: &apos;core_java_project/src/file_Handing_Create_a_File_Program&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=core_java_program/src&lt;file_handling" element1="/src&lt;file_Handing_Create_a_File_Program" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1718024502159" version="1.0"/>
+</session>

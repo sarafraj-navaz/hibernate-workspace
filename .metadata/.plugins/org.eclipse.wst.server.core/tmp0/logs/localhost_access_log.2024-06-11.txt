@@ -1,0 +1,8 @@
+127.0.0.1 - - [11/Jun/2024:17:08:37 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Jun/2024:17:08:40 +0530] "GET /servlet-calculater-project/WEB-INF/classes/com/jsp/servlet_calculater_project/AddController.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [11/Jun/2024:17:08:41 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Jun/2024:17:10:17 +0530] "GET /servlet-sign-up-project/signUp.jsp HTTP/1.1" 200 3499
+0:0:0:0:0:0:0:1 - - [11/Jun/2024:17:10:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Jun/2024:17:11:14 +0530] "GET /servlet-calculater-project/index.jsp HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [11/Jun/2024:17:11:24 +0530] "GET /servlet-calculater-project/addTwoNumber.jsp HTTP/1.1" 200 386
+0:0:0:0:0:0:0:1 - - [11/Jun/2024:17:11:31 +0530] "GET /servlet-calculater-project/two?number1=1&number2=2 HTTP/1.1" 200 -

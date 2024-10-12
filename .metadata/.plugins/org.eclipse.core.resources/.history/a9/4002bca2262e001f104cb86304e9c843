@@ -1,0 +1,32 @@
+package laptop_crud_project_using_jdbc.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import laptop_crud_project_using_jdbc.connection.LaptopConnection;
+import laptop_crud_project_using_jdbc.dto.Laptop;
+
+public class LaptopDao {
+	
+	Connection con=LaptopConnection.getLaptopConnection();
+	Laptop laptop =new Laptop();
+	
+	public Laptop saveLaptopDao(Laptop laptop) {
+		
+		try {
+			Statement state=con.createStatement();
+			
+			String insertQuery="insert into laptop value("+laptop.getLaptopId()+",'"+laptop.getLaptopName()+"',"+laptop.getLaptopPrice()+",'"+laptop.getSellerName()+"')";
+			
+			state.execute(insertQuery);
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+
+}

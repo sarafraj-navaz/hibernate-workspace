@@ -1,0 +1,22 @@
+package java_DSA_Question_Apana_Collage.array;
+
+public class SubArray {
+
+	public static void pair(int number[]) {
+    for(int i=0;i<number.length;i++) {
+    	int start=i;
+    	for(int j=i;j<number.length;j++) {
+    		
+    		for(int c=start;c<=j;c++) {
+    			System.out.print(number[c]+" ");
+    		}
+    	}
+    System.out.println(" ");	
+    }
+	}
+	public static void main(String[] args) {
+		int number[]= {2,4,6,8,10};
+		pair(number);
+	}
+
+}

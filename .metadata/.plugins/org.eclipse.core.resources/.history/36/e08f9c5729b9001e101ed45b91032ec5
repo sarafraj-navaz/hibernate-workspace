@@ -1,0 +1,38 @@
+package jdbc_student_crud_operation_by_statement.entity;
+
+public class Student {
+	private int studentId;
+	private String studentName;
+	private String studentEmail;
+	private String studentCollege;
+	
+	
+	public int getstudentId() {
+		return studentId;
+	}
+	public void setStudentId(int sId) {
+		this.studentId=sId;
+	}
+	
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String sName) {
+		this.studentName =sName;
+	}
+	public String getStudentEmail() {
+		return studentEmail;
+	}
+	public void setStudentEmail(String sEmail) {
+		 this.studentEmail =sEmail;
+	}
+	
+	public String getStudentCollege() {
+		return studentCollege;
+	}
+	public void setStudentCollege(String sCollege) {
+		this.studentCollege =sCollege;
+	}
+	
+
+}

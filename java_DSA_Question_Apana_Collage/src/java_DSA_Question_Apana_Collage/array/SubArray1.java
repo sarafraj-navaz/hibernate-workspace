@@ -1,0 +1,28 @@
+package java_DSA_Question_Apana_Collage.array;
+
+public class SubArray1 {
+
+	public static void pair(int number[]) {
+		int totalsub=0;
+		//start 
+		for(int i=0;i<number.length;i++) {
+			//end
+			for(int j=i;j<number.length;j++) {
+				//it will only print
+				for(int c=i;c<=j;c++) {
+					System.out.print(number[c]+" ");
+					
+				}
+				System.out.println("");
+				totalsub++;
+			}
+			System.out.println(" ");
+		}
+		System.out.println("totalSub Array  "+totalsub);
+	}
+	public static void main(String[] args) {
+		int number[]= {2,4,6,8,10};
+		pair(number);
+	}
+
+}

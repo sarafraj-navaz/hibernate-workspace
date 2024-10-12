@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/medishop-online-dukan" element2="/medishop-online-webapp-servlet-hibernate-main.zip_expanded" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1718876530723"/>
+</session>

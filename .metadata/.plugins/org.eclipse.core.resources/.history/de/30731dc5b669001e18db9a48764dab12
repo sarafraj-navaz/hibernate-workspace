@@ -1,0 +1,10 @@
+package com.jsp.hibernate_many_to_one_uni.controller;
+
+public class CarController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package pattern;
+
+import java.util.Scanner;
+
+public class Square_Hellow_Pattern {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the row number of the square hellow pattern ");
+		int row=sc.nextInt();
+		System.out.println("enter the column number of the square hellow pattern");
+		int col=sc.nextInt();
+	}
+}

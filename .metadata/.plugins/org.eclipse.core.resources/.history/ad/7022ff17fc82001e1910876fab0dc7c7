@@ -1,0 +1,31 @@
+package java_DSA_Question_Apana_Collage.array;
+
+public class SubArray {
+
+	public static void pair(int number[]) {
+		int maxSub;
+    for(int i=0;i<number.length;i++) {
+    	int start=i;
+    	
+    	
+    	for(int j=i;j<number.length;j++) {
+    		maxSub=0;
+    		for(int c=start;c<=j;c++) {
+    			System.out.print(number[c]+" ");
+    			
+    			maxSub =maxSub+number[c];
+    			
+    		}
+    		System.out.println(" ");
+    		
+    	}
+    System.out.println(" ");	
+    System.out.print("sub is "+maxSub);
+    }
+	}
+	public static void main(String[] args) {
+		int number[]= {2,4,6,8,10};
+		pair(number);
+	}
+
+}

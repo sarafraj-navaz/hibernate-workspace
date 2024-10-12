@@ -1,0 +1,38 @@
+package laptop_crud_project_using_jdbc.dao;
+
+import java.util.Scanner;
+
+import laptop_crud_project_using_jdbc.dto.Laptop;
+import laptop_crud_project_using_jdbc.service.LaptopService;
+
+public class LaptopController {
+
+	public static void main(String[] args) {
+		
+		Scanner sc =new Scanner(System.in);
+		LaptopService service=new LaptopService();
+		Laptop laptop=new Laptop();
+		
+		while(true) {
+			System.out.println("1.insert\n 2.DeleteMethodByLaptopID\n 3.updateEmail\n 4.display\n5.update all data \n 6.display Only one row");
+			System.out.println("enter the choise");
+			int choise = sc.nextInt();
+			switch(choise) {
+			case 1:{
+			    s= new Laptop(121,"DEll", 200000,"Navaz");
+			    
+	         	if(s != null) {
+	         		System.out.println("data has been saved");
+	         	}
+	         	else {
+	         		System.out.println("please check your code");
+	         	}
+			}break;
+			default:{
+				
+			}
+			}
+		}
+	}
+
+}

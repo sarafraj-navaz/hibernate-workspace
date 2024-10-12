@@ -1,0 +1,10 @@
+package all_type_constructor;
+
+public class NoParameterized_Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

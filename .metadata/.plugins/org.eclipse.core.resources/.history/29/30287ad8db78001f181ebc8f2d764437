@@ -1,0 +1,25 @@
+package array_all_Program;
+
+import java.util.Arrays;
+
+public class Test30 {
+	public static void main(String[] args) {
+		int[] a= {7,0,2,6,0,4};	
+		System.out.println(Arrays.toString(afterShiftedArray(a)));
+		
+	}
+	public static int[] afterShiftedArray(int[] a) {
+		int n=a.length-1;
+		int[] b=new int[a.length];
+		for(int i=0;i<=n;i++) {
+			if(a[i]==0) {
+				int j1=i;
+				for(int j=j1;j<n;j++) {
+					b[j]=a[j+1];
+				}
+			}
+		}
+		System.out.println("Arrays == "+Arrays.toString(b));
+	return a;	
+	}
+}

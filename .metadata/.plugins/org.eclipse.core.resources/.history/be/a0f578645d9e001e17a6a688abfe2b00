@@ -1,0 +1,50 @@
+package com.jsp.hibernate_one_to_many_university_collage_uni.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import com.jsp.hibernate_one_to_many_university_collage_uni.dto.Collage;
+import com.jsp.hibernate_one_to_many_university_collage_uni.dto.University;
+import com.jsp.hibernate_one_to_many_university_collage_uni.service.CollageService;
+import com.jsp.hibernate_one_to_many_university_collage_uni.service.UniversityCollageService;
+
+public class UniversityCollageController {
+
+	public static void main(String[] args) {
+		
+		Scanner sc =new Scanner(System.in);
+		
+		UniversityCollageService collageService =null;
+		University university  =  null;
+		
+
+
+		while (true) {
+			System.out.println("1.insert\n.2getBId\n3.update method \n 4.delete \n 5.display all \n6.display on the basis of Id");
+			int key = sc.nextInt();
+			switch (key) {
+			case 1:{
+				Collage collage1= new Collage("BBa","Allahabad","aajshj");
+				
+			     Collage collag2 = new Collage("Ba","Allahabad","Bca");
+			     
+			     List<Collage> l1 =new ArrayList<Collage>();
+			     
+			     l1.add(collage1);
+			     l1.add(collag2);
+				
+			     university =new University(1,"aktu","lucknow");
+			       
+			     new UniversityCollageService().saveUniversityCollage(university,l1);
+			     
+			     
+			}break;
+			default:
+				break;
+			}
+	}
+
+	}
+
+}

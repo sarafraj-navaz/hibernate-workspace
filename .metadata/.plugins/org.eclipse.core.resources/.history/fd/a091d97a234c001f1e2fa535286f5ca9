@@ -1,0 +1,26 @@
+package number_Based_Programming0;
+
+public class BiggestAndSecondBiggestNumber {
+	public static void main(String[] args) {
+		int n=328754;
+		findBiggestAndSecondBiggest(n);
+	}
+	public static void findBiggestAndSecondBiggest(int n) {
+		int bigg=Integer.MIN_VALUE,sBigg=Integer.MIN_VALUE,i=0,rem=0;
+		while(n>0) {
+			rem=n%10;
+			System.out.println("totalBits  =="+totalDigit(rem));
+			n=n/10;	
+		}
+	
+	}
+	public static int totalDigit(int n) {
+		System.out.println("n===="+n);
+		int count=0,rem=0;
+		while(n>0) {
+			count++;
+			n=n/2;
+		}
+		return count;
+	}
+}

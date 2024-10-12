@@ -1,0 +1,15 @@
+package rivision;
+
+public class Shifting_0_And_1_Question18 {
+	public static void main(String[] args) {
+		int[] a= {0,1,1,0,0,1,0,0};
+		int count1=0;
+		for(int num:a) {
+			if(num==1) {
+				count1++;
+			}
+		}
+		shift_0_left_And_1_Right(a,count1);
+	}
+	public static void shift_0_left_And_1_Right(int[] a)
+}

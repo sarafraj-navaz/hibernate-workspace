@@ -1,0 +1,20 @@
+package com.jsp.hibernate_one_to_one.dto;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class Adhar {
+	
+	@Id
+	private  Long number;
+	private String address;
+	private  LocalDate dob;
+	private String fathername;
+
+}

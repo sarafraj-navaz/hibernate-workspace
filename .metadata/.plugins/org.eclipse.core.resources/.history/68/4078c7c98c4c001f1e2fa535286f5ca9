@@ -1,0 +1,12 @@
+package number_Based_Programming0;
+
+public class Decimal_to_Binary_otherWay {
+	public static void main(String[] args) {
+		int n=324;
+		while(n>0) {
+			int rem=n%10;
+			n=n/10;
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+package array_all_Program;
+
+public class Test23 {
+	public static void main(String[] args) {
+		int[] a= {25,34,12,45,23,28};
+		a=getSortHalfDec(a);
+	}
+}

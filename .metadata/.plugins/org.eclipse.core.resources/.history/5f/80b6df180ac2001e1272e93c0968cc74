@@ -1,0 +1,16 @@
+package number_Based_Programming0;
+
+public class Count_Number_Of_Binary_bits_Program1 {
+
+	public static void main(String[] args) {
+		int a=55;
+	}
+	public static void countNumberBit(int s) {
+		int count=0;
+		while(s%2 != 0) {
+			count++;
+		}
+		System.out.println("count is "+count);
+	}
+
+}

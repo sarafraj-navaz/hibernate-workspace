@@ -1,0 +1,19 @@
+package arrayBySir;
+
+public class CheckPrime {
+
+	public static void main(String[] args) {
+	
+		int[] a= {23,40,17,18,22,43};
+		int count=0;
+		
+		for(int x:a) {
+			if(checkPrimeNumber(x)) {
+				System.out.println("prime number is"+x);
+				count++;
+			}
+				
+		}
+	}
+
+}
